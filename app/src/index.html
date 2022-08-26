@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MetaCoin | Truffle Webpack Demo w/ Frontend</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+   <!--  <h1>MetaCoin — Example Truffle Dapp</h1>
+    <p>You have <strong class="balance">loading...</strong> META</p>
+    <p class="owner"></p>
+
+    <h1>Send MetaCoin</h1>
+
+    <label for="amount">Amount:</label>
+    <input type="text" id="amount" placeholder="e.g. 95" />
+
+    <label for="receiver">To address:</label>
+    <input
+      type="text"
+      id="receiver"
+      placeholder="e.g. 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+
+    <button onclick="App.sendCoin()">Send MetaCoin</button>
+    <br/>
+    <button onclick="App.getChainId()">Get Chain Id</button>
+    <br/>
+    <button onclick="App.getOwner()">Get SC Owner</button>
+
+    <p id="status"></p>
+    <p>
+      <strong>Hint:</strong> open the browser developer console to view any
+      errors and warnings.
+    </p>
+    <hr/> -->
+    <h2>Item Manager</h2>
+    <p id="owner"></p>
+    <label for="id">Id:</label>
+    <input type="text" id="id" placeholder="e.g. EX1" />
+
+    <label for="price">Price:</label>
+    <input
+      type="text"
+      id="price"
+      placeholder="e.g. 100"
+    />
+
+    <p id="status"></p>
+
+    <button onclick="App.createItem()">Create Item</button>
+
+    <hr/>
+    <label for="index">index:</label>
+    <input type="text" id="index" placeholder="e.g. 0, 1" />
+    <p id="itemBox"></p>
+    <button onclick="App.getItem()">Get Item</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
